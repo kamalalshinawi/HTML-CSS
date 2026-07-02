@@ -164,7 +164,32 @@
         <textarea id="Message" placeholder="Message..."></textarea>
         <br />
         <br />
+        <label for="upload-File">Upload File</label>
+        <input type="file" id="upload-File" />
+        <!-- <button type="submit">Upload</button> -->
+
+        <br />
+        <br />
+        <label for="date">Date: </label>
+        <input type="date" id="date" min="2026-07-01" max="2026-07-31" />
+        <br />
+        <br />
+
+        <label for="quantity">Quantity</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5" />
+        <br />
+        <label for="range">Range</label>
+        <input type="range" id="range" name="range" min="1" />
+        <br />
+        <br />
+        <label for="color">Color</label>
+        <input type="color" id="color" name="color" value="black" />
+
+        <br />
+        <br />
+
         <input type="submit" value="Submit" />
+        <button type="reset">Reset</button>
       </form>
     </div>
   </body>
