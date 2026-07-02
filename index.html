@@ -89,38 +89,83 @@
         </tbody>
       </table>
     </div>
-<hr>
-<hr>
-<div>
-  <ol type="a" start="27">
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JS</li>
-  </ol>
-</div>
+    <hr />
+    <hr />
+    <div>
+      <ol type="a" start="27">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+      </ol>
+    </div>
 
-<br>
+    <br />
 
-<div>
-  <ul>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>JS</li>
-</ul>
-</div>
+    <div>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+      </ul>
+    </div>
 
-<div>
-  <dl>
-    <dt>HTML</dt>
-    <dd>Hyper Text Markup Language</dd>
-    <dt>CSS</dt>
-    <dd>Cascading Style Sheet</dd>
-    <dt>JS</dt>
-    <dd>JavaScript</dd>
-  </dl>
-</div>
+    <div>
+      <dl>
+        <dt>HTML</dt>
+        <dd>Hyper Text Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheet</dd>
+        <dt>JS</dt>
+        <dd>JavaScript</dd>
+      </dl>
+    </div>
 
+    <div>
+      <form action="https://www.google.com/search" method="get">
+        <label for="Username">Username</label>
+        <input id="Username" type="text" placeholder="Username..." />
+        <br />
+        <br />
+        <label for="Password">Password</label>
+        <input id="Password" type="password" placeholder="Password..." />
+        <br />
+        <br />
+        <label>Select Gender : </label>
+        <label for="Male">
+          <input type="radio" id="Male" name="Gender" /> Male
+        </label>
+        <label for="Female">
+          <input type="radio" id="Female" name="Gender" /> Female
+        </label>
+        <br /><br />
 
+        <label> Select Hobbies : </label>
+        <label for="Reading">
+          Reading <input name="hobbies" type="checkbox" id="Reading" />
+        </label>
 
+        <label for="FootBall">
+          FootBall <input name="hobbies" type="checkbox" id="FootBall" />
+        </label>
+
+        <br />
+        <br />
+        <br />
+        <label for="Country">Select Country : </label>
+        <select id="Country">
+          <option value="Egypt">Egypt</option>
+          <option value="USA">USA</option>
+          <option value="UK">UK</option>
+        </select>
+
+        <br />
+        <br />
+        <label for="Message">Message : </label>
+        <textarea id="Message" placeholder="Message..."></textarea>
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
   </body>
 </html>
