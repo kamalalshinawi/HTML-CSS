@@ -1,0 +1,13 @@
+.container{
+    color: red;
+    background-color: red;
+    height: 800px;
+
+}
+
+.children{
+    background-color: rgb(11, 0, 163);
+    color: white;
+    height: 50%;
+    width: 50%;
+}
