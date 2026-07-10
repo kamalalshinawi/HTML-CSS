@@ -1,13 +1,29 @@
+body{
+    height: 1100px;
+}
+
+
 .container{
-    color: red;
-    background-color: red;
-    height: 800px;
+
+    
+    height: 100%;
+    width: auto;
+    background-color: transparent;
+    background-image: url("https://media.springernature.com/lw703/springer-static/image/art%3A10.1038%2F528452a/MediaObjects/41586_2015_Article_BF528452a_Figg_HTML.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: top center;
 
 }
 
-.children{
+
+
+
+
+/* .children{
     background-color: rgb(11, 0, 163);
     color: white;
     height: 50%;
     width: 50%;
-}
+} */
