@@ -28,10 +28,21 @@ body {
   text-decoration: underline; */
 
 
-  border: 10px solid rgb(11, 0, 163);
+  /* border: 10px solid rgb(11, 0, 163);
   width: fit-content;
   padding: 40px 90px;
-  margin: 500px auto;  /* top-bottom , right-left */
+  margin: 500px auto;  top-bottom , right-left */
+
+
+  background-color: red;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 200px;
+  margin-bottom: 20px;  
+  height: 100px;
+  width: 100px;
+
 
 
 
