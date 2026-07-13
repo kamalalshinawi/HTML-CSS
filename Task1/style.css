@@ -20,3 +20,31 @@
     margin-left: 20px;
     margin-top: 20px;
 } 
+
+
+.header-content{
+    text-align: center;
+    margin-top: 300px;
+}
+
+.header-content h2{
+    font-size: 50px;
+    color: rgb(31, 167, 240);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+.header-content a{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #bdacda;
+    background-color: #6c70c3;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+}
