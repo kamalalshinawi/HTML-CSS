@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+  background-image: url('./images/66.jpg');
+  background-size: cover;
+  height: 950px;
+}
+
+
+.navBar a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+} 
