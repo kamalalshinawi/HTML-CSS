@@ -54,6 +54,10 @@
     width: 50%;
 } */
 
+.Clear-Float{
+  clear: both;
+}
+
 
 .father {
   /* background-color: red; */
@@ -74,3 +78,5 @@
   float: right;
   margin:10px;
 }
+
+
