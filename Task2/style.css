@@ -1,35 +1,93 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f2f4f7;
 }
 
-
-.header-home{
-    width: 65%;
-    margin: auto;
-    margin-top: 100px;
-} 
-
-.left-side{
-    float: left;
+.header-home {
+  width: 65%;
+  margin: auto;
+  margin-top: 100px;
 }
 
-.right-side{
-    float: right;
+.left-side {
+  float: left;
 }
 
-
-.left-side h1{
-    font-size: 50px;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
-    color: #0866ff;
+.right-side {
+  float: right;
 }
 
-.left-side p{
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    color: #000000;
-    margin-top: 20px;
-    line-height: 36px;
+.left-side h1 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  color: #0866ff;
+}
+
+.left-side p {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  margin-top: 20px;
+  line-height: 36px;
+}
+
+.right-side form {
+  padding: 25px;
+  background-color: white;
+  width: 400px;
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.1),
+    0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.right-side input {
+  width: 88%;
+  margin-bottom: 25px;
+  padding: 15px 20px;
+  border: 1px solid #00000057;
+  border-radius: 3px;
+}
+
+.right-side input:focus {
+  outline: 1px solid #0866ff;
+}
+
+.right-side input:nth-of-type(3) {
+  width: 100%;
+  background-color: #0866ff;
+  border-radius: 10px;
+  color: white;
+  font-size: larger;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.right-side a:nth-of-type(1) {
+  display: block;
+  width: fit-content;
+  margin-top: 15px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+}
+
+.right-side a:nth-of-type(2) {
+  display: block;
+  background-color: green;
+  text-decoration: none;
+  color: white;
+  width: fit-content;
+  margin: auto;
+  margin-top: 30px;
+  padding: 10px 14px;
+  border-radius: 7px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: medium;
+  font-weight: bold;
 }
