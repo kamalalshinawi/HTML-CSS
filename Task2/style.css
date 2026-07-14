@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.header-home{
+    width: 65%;
+    margin: auto;
+    margin-top: 100px;
+} 
+
+.left-side{
+    float: left;
+}
+
+.right-side{
+    float: right;
+}
+
+
+.left-side h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #0866ff;
+}
+
+.left-side p{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    margin-top: 20px;
+    line-height: 36px;
+}
