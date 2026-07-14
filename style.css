@@ -1,8 +1,6 @@
-body {
-  height: 1100px;
-}
 
-.container {
+
+/* .container { */
   /* height: 100%;
     width: auto;
     background-color: transparent;
@@ -34,20 +32,20 @@ body {
   margin: 500px auto;  top-bottom , right-left */
 
 
-  background-color: red;
+  /* background-color: red;
   display: inline-block;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 200px;
   margin-bottom: 20px;  
   height: 100px;
-  width: 100px;
+  width: 100px; */
 
 
 
 
-
-}
+/* 
+} */
 
 /* .children{
     background-color: rgb(11, 0, 163);
@@ -55,3 +53,24 @@ body {
     height: 50%;
     width: 50%;
 } */
+
+
+.father {
+  /* background-color: red; */
+  width: 70%;
+  margin: auto;
+
+
+}
+
+.father h2{
+  background-color:red;
+  float: left;
+  margin: 10px;
+}
+
+.father h4{
+  background-color: red;
+  float: right;
+  margin:10px;
+}
