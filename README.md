@@ -53,6 +53,7 @@ This project helps you practice:
 
 ## Task 2
 <img width="1854" height="927" alt="screencapture-127-0-0-1-5500-Task2-index-html-2026-07-14-14_19_36" src="https://github.com/user-attachments/assets/893c9940-30e7-4411-a1b2-07a68f6343e8" />
+
 ## Task 3
 <img width="1854" height="2597" alt="screencapture-127-0-0-1-5500-Task3-index-html-2026-07-23-14_36_36" src="https://github.com/user-attachments/assets/32356035-f4d4-4a16-b989-85005e185543" />
 
