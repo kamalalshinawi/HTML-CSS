@@ -83,24 +83,46 @@
 
 
 
-.father{
+/* .father{
       height: 500px;
     background-color: red;
     display: flex;
     flex-direction: row;
     /* align-items: center; */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap;
     align-content: flex-end;
     justify-content: flex-end;
 
     
 
 
-}
+} */
 
-h2{
+/* h2{
   background-color: blue;
   height: 100px;
   width: 100px;
   margin: 20px;
+} */
+
+
+
+body{
+
+  height: 8000px;
+}
+
+.children{
+  background-color: aquamarine;
+  height: 500px;
+  position: relative;
+}
+
+.children h2{
+  background-color: red;
+  /* position: fixed; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
 }
