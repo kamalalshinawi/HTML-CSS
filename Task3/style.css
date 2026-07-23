@@ -136,7 +136,8 @@
   align-items: center;
 }
 
-.contact-home input , .contact-home textarea {
+.contact-home input,
+.contact-home textarea {
   width: 80%;
   padding: 15px 18px;
   margin-top: 20px;
@@ -144,12 +145,47 @@
   border-radius: 6px;
 }
 
-
 .contact-home button {
   padding: 15px 30px;
-  margin-bottom: 20px;
   background-color: hsl(0deg 0% 12.94%);
   color: aliceblue;
   border: none;
   border-radius: 5px;
+}
+
+.footer {
+  background-image: url(./img/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
+  height: 400px;
+  background-size: cover;
+}
+
+.footer h2 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 29px;
+  padding-top: 100px;
+  font-family: monospace;
+}
+
+.footer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer input {
+  width: 80%;
+  padding: 15px 18px;
+  margin-top: 70px;
+  border: none;
+  border-radius: 6px;
+}
+
+.footer button {
+  padding: 15px 30px;
+  background-color: hsl(0deg 0% 12.94%);
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  margin-top: 50px;
 }
