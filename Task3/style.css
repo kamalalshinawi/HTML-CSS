@@ -76,3 +76,22 @@
 .header-home a:nth-of-type(2) {
   background-color: hsl(165.29deg 53.68% 37.25%);
 }
+
+
+.home-section p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+}
+
+.home-section hr{
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: red;
+    border: none;
+    height: 6px;
+}
