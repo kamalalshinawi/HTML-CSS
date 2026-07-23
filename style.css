@@ -107,22 +107,39 @@
 
 
 
-body{
+/* body{
 
   height: 8000px;
-}
+} */
 
-.children{
+/* .children{
   background-color: aquamarine;
   height: 500px;
   position: relative;
-}
+} */
 
-.children h2{
-  background-color: red;
+/* .children h2{ */
+  /* background-color: red; */
   /* position: fixed; */
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
 
+/* } */ 
+
+
+.main{
+  width: 80px;
+  height: 90px;
+  background-color: bisque;
+  overflow: hidden;
 }
+
+.main:hover{
+  width: 800px;
+  height: 300px;
+  /* overflow: auto; */
+  /* overflow: visible; */
+  /* overflow: scroll; */
+}
+
