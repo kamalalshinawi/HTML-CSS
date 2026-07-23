@@ -117,3 +117,46 @@
   letter-spacing: 2px;
   line-height: 30px;
 }
+
+.contact-home {
+  background-image: url(./img/contact\ us.gif);
+  height: 420px;
+}
+
+.contact-home p {
+  text-align: center;
+  color: aliceblue;
+  font-size: 29px;
+  padding-top: 50px;
+}
+
+.contact-home form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-home input {
+  width: 80%;
+  padding: 15px 18px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 6px;
+}
+
+.contact-home textarea {
+  width: 80%;
+  padding: 15px 18px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 6px;
+}
+
+.contact-home button {
+  padding: 15px 30px;
+  margin-bottom: 20px;
+  background-color: hsl(0deg 0% 12.94%);
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+}
